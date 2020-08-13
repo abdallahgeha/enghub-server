@@ -1,0 +1,35 @@
+{
+  "name": "enghub-server",
+  "version": "1.0.0",
+  "description": "engineering app serverside",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdallahgeha/enghub-server.git"
+  },
+  "keywords": [
+    "express",
+    "passport"
+  ],
+  "author": "Abdallah Geha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdallahgeha/enghub-server/issues"
+  },
+  "homepage": "https://github.com/abdallahgeha/enghub-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
